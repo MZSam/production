@@ -1,9 +1,9 @@
 package com.hemebiotech.analytics;
 
-import java.util.List;
+import java.util.HashMap;
 
 public interface ISymptomWriter {
 	
-	void writeResult(List<String> results);
+	void writeResult(HashMap<String,Long> results);
 
 }
